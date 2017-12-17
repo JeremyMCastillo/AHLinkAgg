@@ -1,0 +1,1 @@
+$("a[data-role='course-box-link']").each(function(x){ console.log($(this).attr('href') + '\t' + $(this).find(".course-listing-title").text());});
